@@ -11,19 +11,19 @@ const menuData = {
         '7': 'Banque et micro-finances',
         '0': 'Page suivante'
       },
-      nextPage: SecondMainPage
+      nextPage: 'secondMainPage'
     },
-    SecondMainPage: {
+    secondMainPage: {
       options: {
         '8': 'Mon identité',
         '9': 'Configurer mon mobile',
         '00':'Page précédente'
       },
-      prevPage: firstMainPage
+      prevPage: 'firstMainPage'
     }
   },
   mvola: {
-    FirstMvolaPage: {
+    firstMvolaPage: {
       options: {
         '1': 'Acheter crédit ou offre YAS',
         '2': 'Transférer argent(vers toute destination)',
@@ -31,9 +31,9 @@ const menuData = {
         '4': 'Retrait argent',
         '#': 'Page suivante'
       },
-      nextPage: SecondMvolaPage
+      nextPage: 'secondMvolaPage'
     },
-    SecondMvolaPage: {
+    secondMvolaPage: {
       options: {
         '5': 'Paiement facture & partenaires',
         '6': 'Mon compte',
@@ -42,7 +42,7 @@ const menuData = {
         '*': 'Page précédente',
         '**': 'Menu principal'
       },
-      prevPage: FirstMvolaPage
+      prevPage: 'firstMvolaPage'
     }
   }
 };
