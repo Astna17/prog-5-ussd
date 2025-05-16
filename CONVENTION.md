@@ -1,0 +1,3 @@
+- Variables et fonctions : `camelCase`
+- Fichiers : `snake_case`
+- Classes : `PascalCase`
