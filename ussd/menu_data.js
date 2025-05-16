@@ -11,7 +11,7 @@ const menuData = {
         '7': 'Banque et micro-finances',
         '0': 'Page suivante'
       },
-      nextPage: 2
+      nextPage: SecondMainPage
     },
     SecondMainPage: {
       options: {
@@ -19,7 +19,7 @@ const menuData = {
         '9': 'Configurer mon mobile',
         '00':'Page précédente'
       },
-      prevPage: 1
+      prevPage: firstMainPage
     }
   },
   mvola: {
@@ -31,7 +31,7 @@ const menuData = {
         '4': 'Retrait argent',
         '#': 'Page suivante'
       },
-      nextPage: 2
+      nextPage: SecondMvolaPage
     },
     SecondMvolaPage: {
       options: {
@@ -42,7 +42,7 @@ const menuData = {
         '*': 'Page précédente',
         '**': 'Menu principal'
       },
-      prevPage: 1
+      prevPage: FirstMvolaPage
     }
   }
 };
